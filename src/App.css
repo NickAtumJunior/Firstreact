@@ -15,7 +15,7 @@
   height: 100vh;
 }
 .navigation{
-  margin-bottom: 20px;
+  
  padding-top: 10px;
  padding-bottom: 10px;
   display: inline-flex;
@@ -26,7 +26,7 @@
   text-align: center;
 }
 nav h1{
-  margin-left: 600px;
+  float: right;
   font-family: 'Poppins', sans-serif;
 }
 .home{
@@ -65,10 +65,8 @@ nav h1{
   height:380px;
   background-color: aqua;
   border:none;
-  position: absolute;
-  margin-top: -400px;
-  margin-left: 300px;
-  
+  position: relative;
+
 }
 h1{
   font-family: 'Poppins', sans-serif;
@@ -123,11 +121,15 @@ h1{
 .about{
   width: 100%;
   background-color: rgb(71, 158, 235);
+  padding-top: 10px;
   height: 100vh;
   margin-top: -20px;
   margin-bottom: -30px;
 }
 
-
-
-
+.profile{
+  padding-top: 10px;
+}
+.ui ::placeholder{
+  color: black;
+}

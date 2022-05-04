@@ -7,11 +7,7 @@ function About() {
            <center> <h1>Skills of Mine</h1></center> 
              <div class="row">
                <div class="col">
-                     <div className='progress'>
-                         <div className='progress-done' data-done='79'>
-                             
-                         </div>
-                     </div>
+                    1
                 </div>
                 <div class="col">
                       2 
