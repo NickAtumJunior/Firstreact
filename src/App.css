@@ -1,49 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-a{
-  margin: 10px;
-  background-color: #282c34;
-  color: aliceblue;
-  padding: 10px;
+.navigation a{
+  height: 100%;
+  display: inline-flex;
   text-decoration: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
-a:hover{
-  background-color: rgb(114, 168, 216);
-  color: #282c34;
+.route{
+  width: 100%;
+  height: 100vh;
 }
+.navigation{
+  margin-bottom: 20px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+  display: inline-flex;
+  width: 100%;
+  background-color: rgb(71, 158, 235);
+  align-items: center;
+  padding-left: 10px;
+  text-align: center;
+}
+nav h1{
+  margin-left: 600px;
+  font-family: 'Poppins', sans-serif;
+}
+.home{
+  width: 100%;
+  background-color: rgb(71, 158, 235);
+  height: 100vh;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+.userone{
+  width: 29em;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.home_two{
+  margin-top: 15%;
+}
+.home_two h1{
+  font-size: 45px;
+}
+.blue{
+  color: blue;
+  font-weight: bold;
+}
+.red{
+  color: rgb(255, 217, 0);
+  font-weight: bold;
+}
+.home_two p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+}
+.login{
+  width: 500px;
+  height:380px;
+  background-color: aqua;
+  border:none;
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 300px;
+  
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.login button{
+  border: none;
+  color: aliceblue;
+  background-color: black;
+  padding: 2px 3px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+/* here is the area for about */
+/* about page style started */
+
+.boxing{
+  padding: 10px;
+  margin-left: 1%;
+}
+.skills{
+  background-color: aqua;
+  border-radius: 6px;
+  height: 50vh;
+}
+.experience{
+  background-color: rgb(63, 63, 250);
+  border-radius: 6px;
+  height: 50vh;
+}
+.contact{
+  background-color: brown;
+  border-radius: 6px;
+  height: 35vh;
+}
+.technologiesused{
+  background-color: burlywood;
+  border-radius: 6px;
+  height: 35vh;
+}
+.uifourcolumngrid a{
+  text-decoration: none;
+  color: blue;
+
+}
+.lone{
+  color: black;
+  background-color: #fff;
+}
+.about{
+  width: 100%;
+  background-color: rgb(71, 158, 235);
+  height: 100vh;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+
+
+
+
