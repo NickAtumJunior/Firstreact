@@ -4,6 +4,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Profile from './Pages/Profile';
 import ErrorPage from './Pages/ErrorPage';
+import React from 'react';
 
 
 

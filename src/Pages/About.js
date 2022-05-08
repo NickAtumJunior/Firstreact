@@ -4,7 +4,7 @@ function About() {
 
   const elementStyle = {
     padding: 1 + "%",
-   
+    margin: 3+ '%'
   } 
   const containerStyle = {
      paddingTop: 4 + "%",
