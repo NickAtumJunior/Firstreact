@@ -127,9 +127,11 @@ h1{
   margin-bottom: -30px;
 }
 
-.profile{
+#profile{
   padding-top: 10px;
 }
 .ui ::placeholder{
-  color: black;
+  color: rgb(0, 0, 0);
+
 }
+

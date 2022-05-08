@@ -25,40 +25,40 @@ function Profile() {
   }
 
     return (
- <div className='profile' class='ui container'>
+ <div id='profile' className='ui container'>
    <center><h1>Keep touch with me</h1></center> <br></br>
    {"\n"}
    {""}
    {""}
-   <div class="ui four column grid" >
-       <div class="row">
-           <a class='column' style={styling} href='https://www.facebook.com/nithishkumarthirucelvam'>Linkedin{""}<i class='linkedin icon'></i></a>
-           <a class='column' style={styling} href='https://www.facebook.com/nithishkumarthirucelvam'>facebook{""}<i class='facebook icon'></i></a>
-           <a class='column' style={styling} href='https://www.facebook.com/nithishkumarthirucelvam'>Whatsapp{""}<i class='whatsapp icon'></i></a>
-           <a class='column' style={styling} href='https://www.facebook.com/nithishkumarthirucelvam'>Mail Me{""}<i class='envelope icon'></i></a>
+   <div className="ui four column grid" >
+       <div className="row">
+           <a className='column' style={styling} href='https://www.linkedin.com/in/nithish1b4'>Linkedin{""}<i className='linkedin icon'></i></a>
+           <a className='column' style={styling} href='https://www.facebook.com/nithishkumarthirucelvam'>facebook{""}<i className='facebook icon'></i></a>
+           <a className='column' style={styling} href=' https://wa.me/9344150665'>Whatsapp{""}<i className='whatsapp icon'></i></a>
+           <a className='column' style={styling} href='mailto:nithishthirucelvam007@gmail.com'>Mail Me{""}<i className='envelope icon'></i></a>
        </div>
-       <a class='column' style={styling} href='https://www.facebook.com/nithishkumarthirucelvam'>Call me{""}<i class='phone icon'></i></a>
-       <a class='column' style={styling} href='https://www.facebook.com/nithishkumarthirucelvam'>Subscribe{""}<i class='youtube icon'></i></a>
-       <a class='column' style={styling} href='https://www.facebook.com/nithishkumarthirucelvam'>Follow me{""}<i class='twitter icon'></i></a>
-       <a class='column' style={styling} href='https://www.facebook.com/nithishkumarthirucelvam'>Linkedin{""}<i class='linkedin icon'></i></a>
+       <a className='column' style={styling} href='tel:9344150665'>Call me{""}<i className='phone icon'></i></a>
+       <a className='column' style={styling} href='https://www.youtube.com/channel/UCmJ6M4-Yp04p4vJRWcBI21g'>Subscribe{""}<i className='youtube icon'></i></a>
+       <a className='column' style={styling} href='https://twitter.com/NithishkumarTh2'>Follow me{""}<i className='twitter icon'></i></a>
+       <a className='column' style={styling} href='https://www.instagram.com/in/nithishmuthya007'>Instagram{""}<i className='instagram icon'></i></a>
       </div> <br></br>
       <center><h1>Your Thoughts</h1></center> <br></br>
-   <form class="ui form" onSubmit={sendEmail} >
-       <div class="field">
+   <form className="ui form" onSubmit={sendEmail} >
+       <div className="field">
            <label>Name</label>
            <input type="text" name="first_name" placeholder="your name" required/>
       </div>
-      <div class="field">
+      <div className="field">
            <label>Email</label>
            <input type='email' name="user_email" placeholder="Your email..." required/>
       </div>
-      <div class="field">
+      <div className="field">
            <label>Message</label>
-          <textarea class='ui' name='message' placeholder='your thoughts' rows={4} required/>
+          <textarea className='ui' name='message' placeholder='your thoughts' rows={4} required/>
       </div>
-      <button class="ui  primary button" type="submit">Submit</button>
+      <button className="ui  primary button" type="submit">Submit</button>
   </form>
-    <div class='ui container'>
+    <div className='ui container'>
         <center><h1 style={{color:'green'}}>{msg}</h1></center>
         <center><h1 style={{color:'red'}}>{err}</h1></center>
     </div> {"\n"}

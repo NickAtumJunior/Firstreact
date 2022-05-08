@@ -8,10 +8,10 @@ function Home() {
   
     return (
         <div className='home'>
-           <div class='container'>
-      <div class='row'>
+           <div className='container'>
+      <div className='row'>
         
-        <div class='col'>
+        <div className='col'>
         <div className='home_two'>
               <h1 style={{color:"white"}}>Hi! Everyone I'm <span className='lone'>{"\n"}LoneWolf</span></h1> <br></br>
               <h3>FullStack Developer Based in <span className='blue'>India.</span></h3> <br></br>
@@ -23,7 +23,7 @@ function Home() {
                  in AI.
               </p>
                   <br></br>
-              <button class="ui primary button"> Hire Me</button>     <button class="ui primary button ">Resume</button>
+              <button className="ui primary button"> Hire Me</button>     <button className="ui primary button ">Resume</button>
            </div>
         </div>
       </div>

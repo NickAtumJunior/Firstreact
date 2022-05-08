@@ -14,9 +14,9 @@ function App() {
      <Router className='route'>
        
         <nav className='navigation'>
-          <Link to='/' class='ui primary button' > <span> {""}<i class="shield alternate icon"></i></span> Home </Link>
-           <Link to='/about' class='ui primary button'> <span> {""}<i class="user icon"></i></span> About</Link>
-         <Link to='/profile' class='ui primary button'> <span> {""}<i class="envelope icon"></i> </span>Contact</Link>
+          <Link to='/' className='ui primary button' > <span> {""}<i className="shield alternate icon"></i></span> Home </Link>
+           <Link to='/about' className='ui primary button'> <span> {""}<i className="user icon"></i></span> About</Link>
+         <Link to='/profile' className='ui primary button'> <span> {""}<i className="envelope icon"></i> </span>Contact</Link>
          
         </nav>
       <Routes>
